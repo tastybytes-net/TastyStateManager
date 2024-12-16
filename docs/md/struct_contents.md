@@ -1,9 +1,9 @@
 # Structures
 
-* [ActionFunctions](a00108.md#a00108)
-* [BlinkState](a00116.md#a00116)
-* [DateTimeObj](a00096.md#a00096)
-* [eventHandler](a00112.md#a00112)
-* [LedColor](a00100.md#a00100)
-* [RGBLed](a00104.md#a00104)
-* [Timeout](a00128.md#a00128)
+* [ActionFunctions](struct_action_functions.md#struct_action_functions)
+* [BlinkState](struct_blink_state.md#struct_blink_state)
+* [DateTimeObj](struct_date_time_obj.md#struct_date_time_obj)
+* [eventHandler](structevent_handler.md#structevent_handler)
+* [LedColor](struct_led_color.md#struct_led_color)
+* [RGBLed](struct_r_g_b_led.md#struct_r_g_b_led)
+* [Timeout](struct_timeout.md#struct_timeout)

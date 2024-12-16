@@ -1,3 +1,7 @@
+/**
+ * @file TastyStateManager.h
+ */
+
 #ifndef TASTY_STATE_MANAGER_H
 #define TASTY_STATE_MANAGER_H
 

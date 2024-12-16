@@ -2,28 +2,28 @@
 
 ## A
 
-* [ActionFunctions](a00108.md#a00108)
+* [ActionFunctions](struct_action_functions.md#struct_action_functions)
 
 ## B
 
-* [BlinkState](a00116.md#a00116)
+* [BlinkState](struct_blink_state.md#struct_blink_state)
 
 ## D
 
-* [DateTimeObj](a00096.md#a00096)
+* [DateTimeObj](struct_date_time_obj.md#struct_date_time_obj)
 
 ## E
 
-* [eventHandler](a00112.md#a00112)
+* [eventHandler](structevent_handler.md#structevent_handler)
 
 ## L
 
-* [LedColor](a00100.md#a00100)
+* [LedColor](struct_led_color.md#struct_led_color)
 
 ## R
 
-* [RGBLed](a00104.md#a00104)
+* [RGBLed](struct_r_g_b_led.md#struct_r_g_b_led)
 
 ## T
 
-* [Timeout](a00128.md#a00128)
+* [Timeout](struct_timeout.md#struct_timeout)

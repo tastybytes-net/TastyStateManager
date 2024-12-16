@@ -1,17 +1,13 @@
-<a id="dir_61a31ff85c95043c98241b02dc2a1804"></a>
-# Directory states
-
-**Location**: `src/states/`
+<a id="md__r_e_a_d_m_e"></a>
+# TastyStateManager
 
 
 
+<a id="md__r_e_a_d_m_e_1tastystatemanager"></a>
 
+**TODO**:
 
-## Files
-
-* [DateEntryState.cpp](_date_entry_state_8cpp.md#_date_entry_state_8cpp)
-* [TextEntryState.cpp](_text_entry_state_8cpp.md#_text_entry_state_8cpp)
-* [TimeEntryState.cpp](_time_entry_state_8cpp.md#_time_entry_state_8cpp)
+* location {"type":"element","name":"location","attributes":{"file":"README.md"},"children":[]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

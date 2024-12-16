@@ -9,10 +9,10 @@
 
 ## Files
 
-* [DateEntryState.h](a00032.md#a00032)
-* [EntryState.h](a00035.md#a00035)
-* [TextEntryState.h](a00038.md#a00038)
-* [TimeEntryState.h](a00041.md#a00041)
+* [DateEntryState.h](_date_entry_state_8h.md#_date_entry_state_8h)
+* [EntryState.h](_entry_state_8h.md#_entry_state_8h)
+* [TextEntryState.h](_text_entry_state_8h.md#_text_entry_state_8h)
+* [TimeEntryState.h](_time_entry_state_8h.md#_time_entry_state_8h)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

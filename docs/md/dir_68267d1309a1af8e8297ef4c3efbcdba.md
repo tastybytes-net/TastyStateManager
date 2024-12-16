@@ -13,9 +13,9 @@
 
 ## Files
 
-* [TastyMenu.cpp](a00068.md#a00068)
-* [TastyState.cpp](a00071.md#a00071)
-* [TastyStateManager.cpp](a00074.md#a00074)
+* [TastyMenu.cpp](_tasty_menu_8cpp.md#_tasty_menu_8cpp)
+* [TastyState.cpp](_tasty_state_8cpp.md#_tasty_state_8cpp)
+* [TastyStateManager.cpp](_tasty_state_manager_8cpp.md#_tasty_state_manager_8cpp)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
