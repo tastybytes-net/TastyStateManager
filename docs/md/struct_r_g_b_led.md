@@ -37,9 +37,7 @@ int8_t RGBLed::r = NOT_A_PIN
 
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"RGBLed::r"}]}
 
 <a id="struct_r_g_b_led_1a8b6d0161a5ffec187ef373a0119e7b3e"></a>
 ### Variable g
@@ -60,9 +58,7 @@ int8_t RGBLed::g = NOT_A_PIN
 
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"RGBLed::g"}]}
 
 <a id="struct_r_g_b_led_1a0aa21ef2b7c693e1760062d3e38313e8"></a>
 ### Variable b
@@ -83,9 +79,7 @@ int8_t RGBLed::b = NOT_A_PIN
 
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"RGBLed::b"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

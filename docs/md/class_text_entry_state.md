@@ -62,9 +62,7 @@ bool TextEntryState::caseSensitive
 
 **Type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TextEntryState::caseSensitive"}]}
 
 ## Public static functions
 
@@ -90,9 +88,7 @@ void TextEntryState::setDrawFn(handler_t dFn)
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TextEntryState::setDrawFn"}]}
 
 ## Public functions
 
@@ -122,9 +118,7 @@ TextEntryState::TextEntryState(String name, uint8_t length, String data, handler
 
 **Return type**: 
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TextEntryState::TextEntryState"}]}
 
 <a id="class_text_entry_state_1a820e5717a8a772737fc33d0ba59c5244"></a>
 ### Function increase
@@ -143,9 +137,7 @@ void TextEntryState::increase()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TextEntryState::increase"}]}
 
 <a id="class_text_entry_state_1a81062a6d23420b68b8d2e1df25a38db8"></a>
 ### Function decrease
@@ -164,9 +156,7 @@ void TextEntryState::decrease()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TextEntryState::decrease"}]}
 
 <a id="class_text_entry_state_1ac38ac0d60008993e4852aebc28ef0f8c"></a>
 ### Function adjustIndexUp
@@ -185,9 +175,7 @@ void TextEntryState::adjustIndexUp()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TextEntryState::adjustIndexUp"}]}
 
 <a id="class_text_entry_state_1a147cea6ed8fb9087dacb83488b8cb847"></a>
 ### Function adjustIndexDown
@@ -206,9 +194,7 @@ void TextEntryState::adjustIndexDown()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TextEntryState::adjustIndexDown"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -61,9 +61,7 @@ uint8_t DateEntryState::editIndex = 1
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateEntryState::editIndex"}]}
 
 ## Public functions
 
@@ -91,9 +89,7 @@ DateEntryState::DateEntryState(String name, DateTimeObj data, handler_t saveFn, 
 
 **Return type**: 
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateEntryState::DateEntryState"}]}
 
 <a id="class_date_entry_state_1ac0b1cd5e28c0d9c9229be80af390713c"></a>
 ### Function increase
@@ -112,9 +108,7 @@ void DateEntryState::increase()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateEntryState::increase"}]}
 
 <a id="class_date_entry_state_1a135b5a88b110cac5bdf3917abaf1f6af"></a>
 ### Function decrease
@@ -133,9 +127,7 @@ void DateEntryState::decrease()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateEntryState::decrease"}]}
 
 <a id="class_date_entry_state_1a2e506a99f316481cfb4cc82ebf8c7dd9"></a>
 ### Function adjustIndexUp
@@ -154,9 +146,7 @@ void DateEntryState::adjustIndexUp()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateEntryState::adjustIndexUp"}]}
 
 <a id="class_date_entry_state_1ac299d7c5be3e0dbbe62771d3a8071c2c"></a>
 ### Function adjustIndexDown
@@ -175,9 +165,7 @@ void DateEntryState::adjustIndexDown()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateEntryState::adjustIndexDown"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

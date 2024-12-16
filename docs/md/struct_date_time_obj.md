@@ -40,9 +40,7 @@ uint8_t DateTimeObj::hour
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateTimeObj::hour"}]}
 
 <a id="struct_date_time_obj_1a9d7086a3414ad482ab902f04daf31caa"></a>
 ### Variable minute
@@ -63,9 +61,7 @@ uint8_t DateTimeObj::minute
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateTimeObj::minute"}]}
 
 <a id="struct_date_time_obj_1a00cb6264c4122aebc8f46bf314e67f08"></a>
 ### Variable second
@@ -86,9 +82,7 @@ uint8_t DateTimeObj::second = 0
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateTimeObj::second"}]}
 
 <a id="struct_date_time_obj_1a26f953e8a99b87cadf118cfdc6134243"></a>
 ### Variable month
@@ -109,9 +103,7 @@ uint8_t DateTimeObj::month
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateTimeObj::month"}]}
 
 <a id="struct_date_time_obj_1ad8c9a4205f95289a7c5839e277da4548"></a>
 ### Variable day
@@ -132,9 +124,7 @@ uint8_t DateTimeObj::day
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateTimeObj::day"}]}
 
 <a id="struct_date_time_obj_1ad3ab8a90004772ab5e96070166f7fe23"></a>
 ### Variable year
@@ -155,9 +145,7 @@ uint16_t DateTimeObj::year
 
 **Type**: uint16_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"DateTimeObj::year"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -53,9 +53,7 @@ TastyStateManager& TastyMenu::tastySM = [TastyStateManager::getInstance](class_t
 
 **Type**: [TastyStateManager](class_tasty_state_manager.md#class_tasty_state_manager) &
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::tastySM"}]}
 
 ## Public attributes
 
@@ -78,9 +76,7 @@ Pointer to the head state of the menu.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::head"}]}
 
 <a id="class_tasty_menu_1af44feb296262ad6a5cebc15be559e3ec"></a>
 ### Variable backMenu
@@ -101,9 +97,7 @@ Pointer to the previous menu.
 
 **Type**: [TastyMenu](class_tasty_menu.md#class_tasty_menu) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::backMenu"}]}
 
 <a id="class_tasty_menu_1ad6b745dde37c335bdf5aa444e46a3ffb"></a>
 ### Variable length
@@ -124,9 +118,7 @@ Number of states in the menu.
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::length"}]}
 
 ## Public static attributes
 
@@ -150,9 +142,7 @@ Default timeout for menu states.
 
 **Type**: uint16_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::defaultMenuTimeout"}]}
 
 <a id="class_tasty_menu_1ae100a945aacb729b4240d5e656eb3b4e"></a>
 ### Variable defaultTimeoutState
@@ -174,9 +164,7 @@ Default state to transition to on timeout.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::defaultTimeoutState"}]}
 
 <a id="class_tasty_menu_1a43eb8dad1f539abadfa027811a3d21fa"></a>
 ### Variable drawFn
@@ -198,9 +186,7 @@ Function pointer for drawing the menu.
 
 **Type**: handler_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::drawFn"}]}
 
 ## Private functions
 
@@ -236,9 +222,7 @@ This function sets up the event handlers for a given state and assigns a timeout
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::initializeState"}]}
 
 <a id="class_tasty_menu_1aa2863983003900aa328f207b4e9576ba"></a>
 ### Function calculateIndices
@@ -270,9 +254,7 @@ This function traverses the menu states and assigns an index to each state, whic
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::calculateIndices"}]}
 
 <a id="class_tasty_menu_1a37c05ca23b14576d9572415dde1fcbb5"></a>
 ### Function addEvents
@@ -295,9 +277,7 @@ void TastyMenu::addEvents(TastyState *state)
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::addEvents"}]}
 
 ## Public static functions
 
@@ -323,9 +303,7 @@ Set the drawing function.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::setDrawFn"}]}
 
 <a id="class_tasty_menu_1af698fee221a2bd93944b17559e89d127"></a>
 ### Function activateSubMenu
@@ -371,9 +349,7 @@ true if the submenu was activated, false otherwise.
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::activateSubMenu"}]}
 
 <a id="class_tasty_menu_1a84a6a50e9a559dbe69392acd29cd7291"></a>
 ### Function activateBackMenu
@@ -419,9 +395,7 @@ true if the back menu was activated, false otherwise.
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::activateBackMenu"}]}
 
 ## Public functions
 
@@ -447,9 +421,7 @@ TastyMenu::TastyMenu(uint8_t len,...)
 
 **Return type**: 
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::TastyMenu"}]}
 
 <a id="class_tasty_menu_1af61be78dc4428db44c3bd2f56bba8102"></a>
 ### Function addTimeoutToState
@@ -487,9 +459,7 @@ This function checks if the state has a timeout set; if not, it assigns the defa
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::addTimeoutToState"}]}
 
 <a id="class_tasty_menu_1a1cf18ee0770c2e0705f773d44bc65a00"></a>
 ### Function addNextMenuState
@@ -513,9 +483,7 @@ Adds a new state after an existing state.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::addNextMenuState"}]}
 
 <a id="class_tasty_menu_1a708498fb2e8c47213be38e636e4ba02c"></a>
 ### Function addPreviousMenuState
@@ -539,9 +507,7 @@ Adds a new state before an existing state.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::addPreviousMenuState"}]}
 
 <a id="class_tasty_menu_1a98960c9b7cad18f3c52d882c13b5c957"></a>
 ### Function addSubmenu
@@ -565,9 +531,7 @@ Adds a submenu to an existing state.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::addSubmenu"}]}
 
 <a id="class_tasty_menu_1aafcad30322884ff02eda904fe1b5f3a8"></a>
 ### Function addBackMenu
@@ -591,9 +555,7 @@ Adds a back menu to an existing state.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyMenu::addBackMenu"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

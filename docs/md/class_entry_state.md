@@ -61,9 +61,7 @@ TastyState* EntryState< DataType, D >::state
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::state"}]}
 
 <a id="class_entry_state_1a5a0390d30529f33b7192b5d571faf11b"></a>
 ### Variable inEdit
@@ -84,9 +82,7 @@ bool EntryState< DataType, D >::inEdit = false
 
 **Type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::inEdit"}]}
 
 <a id="class_entry_state_1ade8dfbb4a7dc66557e2e2b2c0651aa2d"></a>
 ### Variable editIndex
@@ -107,9 +103,7 @@ uint8_t EntryState< DataType, D >::editIndex = 0
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::editIndex"}]}
 
 <a id="class_entry_state_1a6abebe19b450f5323555c1fe11e00045"></a>
 ### Variable originalData
@@ -130,9 +124,7 @@ DataType EntryState< DataType, D >::originalData
 
 **Type**: DataType
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::originalData"}]}
 
 <a id="class_entry_state_1ab59b7e059f9f52e972697c61b58c59fb"></a>
 ### Variable data
@@ -153,9 +145,7 @@ DataType EntryState< DataType, D >::data
 
 **Type**: DataType
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::data"}]}
 
 <a id="class_entry_state_1a0cc083de69e8442af50240f00338e86d"></a>
 ### Variable length
@@ -176,9 +166,7 @@ uint8_t EntryState< DataType, D >::length
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::length"}]}
 
 <a id="class_entry_state_1a0cf0d4f4d20446fc394e3e9e8d2793b1"></a>
 ### Variable editVal
@@ -199,9 +187,7 @@ char EntryState< DataType, D >::editVal = '0'
 
 **Type**: char
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::editVal"}]}
 
 <a id="class_entry_state_1a4c197fca2ff66cd2197410fdf0ba2653"></a>
 ### Variable saveFn
@@ -222,9 +208,7 @@ handler_t EntryState< DataType, D >::saveFn
 
 **Type**: handler_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::saveFn"}]}
 
 <a id="class_entry_state_1ab1e74c4e8e1e0673fa9aba0484ffff30"></a>
 ### Variable saveState
@@ -245,9 +229,7 @@ TastyState* EntryState< DataType, D >::saveState
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::saveState"}]}
 
 ## Public static attributes
 
@@ -271,9 +253,7 @@ handler_t EntryState< DataType, D >::drawFn
 
 **Type**: handler_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::drawFn"}]}
 
 ## Public static functions
 
@@ -299,9 +279,7 @@ static void EntryState< DataType, D >::setDrawFn(handler_t dFn)
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::setDrawFn"}]}
 
 <a id="class_entry_state_1ae4c99104aa3bef58748022da74865ff0"></a>
 ### Function onClick
@@ -326,9 +304,7 @@ static bool EntryState< DataType, D >::onClick(TastyState *state, void *)
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::onClick"}]}
 
 <a id="class_entry_state_1a59d35412472caf27d243ce9698b26cc3"></a>
 ### Function onUp
@@ -353,9 +329,7 @@ static bool EntryState< DataType, D >::onUp(TastyState *state, void *)
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::onUp"}]}
 
 <a id="class_entry_state_1a43512a0e5a5c1b7729a2c58a9ef04643"></a>
 ### Function onDown
@@ -380,9 +354,7 @@ static bool EntryState< DataType, D >::onDown(TastyState *state, void *)
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::onDown"}]}
 
 <a id="class_entry_state_1a937e240aaa9d689b397581fad110ad38"></a>
 ### Function onRight
@@ -407,9 +379,7 @@ static bool EntryState< DataType, D >::onRight(TastyState *state, void *)
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::onRight"}]}
 
 <a id="class_entry_state_1ad775bb40c2fec2edfdf2226425a646a1"></a>
 ### Function onLeft
@@ -434,9 +404,7 @@ static bool EntryState< DataType, D >::onLeft(TastyState *state, void *)
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::onLeft"}]}
 
 <a id="class_entry_state_1a9d3c567b81a85de4d5793dc38c619092"></a>
 ### Function reset
@@ -461,9 +429,7 @@ static bool EntryState< DataType, D >::reset(TastyState *state, void *)
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::reset"}]}
 
 ## Public functions
 
@@ -493,9 +459,7 @@ EntryState< DataType, D >::EntryState(String name, uint8_t length, DataType data
 
 **Return type**: 
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::EntryState"}]}
 
 <a id="class_entry_state_1aa084c90e0415d3dc7337b4c467084d75"></a>
 ### Function increase
@@ -514,9 +478,7 @@ void EntryState< DataType, D >::increase()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::increase"}]}
 
 <a id="class_entry_state_1a5f1ce1a14dabc884a848914dbc31ca57"></a>
 ### Function decrease
@@ -535,9 +497,7 @@ void EntryState< DataType, D >::decrease()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::decrease"}]}
 
 <a id="class_entry_state_1afe1ff3d6d1f7232fc9af7c48b08a54fe"></a>
 ### Function adjustIndexUp
@@ -556,9 +516,7 @@ void EntryState< DataType, D >::adjustIndexUp()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::adjustIndexUp"}]}
 
 <a id="class_entry_state_1a30fa330eda96cbcd2c6a2c7d76bc6286"></a>
 ### Function adjustIndexDown
@@ -577,9 +535,7 @@ void EntryState< DataType, D >::adjustIndexDown()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"EntryState::adjustIndexDown"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

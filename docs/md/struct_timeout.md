@@ -36,9 +36,7 @@ TastyState* Timeout::state
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"Timeout::state"}]}
 
 <a id="struct_timeout_1a9d26aa704f673110774336378b01eaf2"></a>
 ### Variable time
@@ -59,9 +57,7 @@ uint32_t Timeout::time
 
 **Type**: uint32_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"Timeout::time"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

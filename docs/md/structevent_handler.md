@@ -36,9 +36,7 @@ handler_t eventHandler::callback = nullptr
 
 **Type**: handler_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"eventHandler::callback"}]}
 
 <a id="structevent_handler_1a4632f18eccf72e49a46cd4da610be413"></a>
 ### Variable param
@@ -59,9 +57,7 @@ void* eventHandler::param = T()
 
 **Type**: void *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"eventHandler::param"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -67,9 +67,7 @@ Array of event handlers for different event types.
 
 **Type**: [eventHandler](structevent_handler.md#structevent_handler)
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::events"}]}
 
 ## Public static attributes
 
@@ -93,9 +91,7 @@ Default timeout for the [TastyState](class_tasty_state.md#class_tasty_state) in 
 
 **Type**: int32_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::defaultTimeout"}]}
 
 ## Public attributes
 
@@ -118,9 +114,7 @@ Name of the state.
 
 **Type**: String
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::name"}]}
 
 <a id="class_tasty_state_1a8f505de57dc6a17af192fec5070e1958"></a>
 ### Variable icon
@@ -141,9 +135,7 @@ Icon associated with the state.
 
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::icon"}]}
 
 <a id="class_tasty_state_1adae809684154ef4d9c99b520755e7f90"></a>
 ### Variable ledColor
@@ -164,9 +156,7 @@ LED color for the state.
 
 **Type**: [LedColor](struct_led_color.md#struct_led_color)
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::ledColor"}]}
 
 <a id="class_tasty_state_1ac73467c46a7e1f8192c72b35b5433a82"></a>
 ### Variable ledSpeed
@@ -187,9 +177,7 @@ LED blink speed for the state.
 
 **Type**: BlinkSpeed
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::ledSpeed"}]}
 
 <a id="class_tasty_state_1a058b70cc059b1c6e8b9e2566da830f0e"></a>
 ### Variable timeout
@@ -210,9 +198,7 @@ int32_t TastyState::timeout = 0
 
 **Type**: int32_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::timeout"}]}
 
 <a id="class_tasty_state_1ae7f2d16bbb0041fccff43822a4583b4c"></a>
 ### Variable activatedTime
@@ -233,9 +219,7 @@ Time when the state was activated.
 
 **Type**: unsigned long
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::activatedTime"}]}
 
 <a id="class_tasty_state_1aee8083a0e6ea059aeb3a1527f3d986c1"></a>
 ### Variable onClickState
@@ -256,9 +240,7 @@ State to transition to on click event.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onClickState"}]}
 
 <a id="class_tasty_state_1a23d88336faca6009183fd1671cbaee09"></a>
 ### Variable onDoubleClickState
@@ -279,9 +261,7 @@ State to transition to on double click event.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onDoubleClickState"}]}
 
 <a id="class_tasty_state_1aba693fde2c1924d69295b5fd7652dc2e"></a>
 ### Variable onLongPressState
@@ -302,9 +282,7 @@ State to transition to on long press event.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onLongPressState"}]}
 
 <a id="class_tasty_state_1a9d1b7c4de4d38582d3ce4af9c0910d35"></a>
 ### Variable onMultiClickState
@@ -325,9 +303,7 @@ State to transition to on multi-click event.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onMultiClickState"}]}
 
 <a id="class_tasty_state_1aa3c065befcba417bb92a9f054c5da305"></a>
 ### Variable onUpClickState
@@ -348,9 +324,7 @@ State to transition to on up click event.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onUpClickState"}]}
 
 <a id="class_tasty_state_1a45d16f05da6a0a11b011c60903032894"></a>
 ### Variable onDownClickState
@@ -371,9 +345,7 @@ State to transition to on down click event.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onDownClickState"}]}
 
 <a id="class_tasty_state_1acdbda9d91f66c1334862f4891f2421fa"></a>
 ### Variable onLeftClickState
@@ -394,9 +366,7 @@ State to transition to on left click event.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onLeftClickState"}]}
 
 <a id="class_tasty_state_1ae5dffc901f10445470b094483f966152"></a>
 ### Variable onRightClickState
@@ -417,9 +387,7 @@ State to transition to on right click event.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onRightClickState"}]}
 
 <a id="class_tasty_state_1a57f8124f783f475cf9c9855358ba3647"></a>
 ### Variable onTimeoutState
@@ -440,9 +408,7 @@ State to transition to on timeout.
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onTimeoutState"}]}
 
 <a id="class_tasty_state_1a785b5098c7503d32e1778f790b6ecc99"></a>
 ### Variable index
@@ -463,9 +429,7 @@ Index of the state in the menu.
 
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::index"}]}
 
 <a id="class_tasty_state_1a5f5ab69741d09cfad3859079f0ad9804"></a>
 ### Variable backMenu
@@ -486,9 +450,7 @@ Menu to go back to.
 
 **Type**: [TastyMenu](class_tasty_menu.md#class_tasty_menu) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::backMenu"}]}
 
 <a id="class_tasty_state_1a540bde56a8a1bb809388900dfbc64f2d"></a>
 ### Variable forwardMenu
@@ -509,9 +471,7 @@ Menu to go forward to.
 
 **Type**: [TastyMenu](class_tasty_menu.md#class_tasty_menu) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::forwardMenu"}]}
 
 <a id="class_tasty_state_1af72aefe50e11699cd5c77c26fcc657fb"></a>
 ### Variable menu
@@ -532,9 +492,7 @@ The menu this state is part of.
 
 **Type**: [TastyMenu](class_tasty_menu.md#class_tasty_menu) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::menu"}]}
 
 ## Public functions
 
@@ -571,9 +529,7 @@ Constructs a [TastyState](class_tasty_state.md#class_tasty_state) with specified
 
 **Return type**: 
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::TastyState"}]}
 
 <a id="class_tasty_state_1a2691970be519cefee4db4310cac26a93"></a>
 ### Function TastyState
@@ -600,9 +556,7 @@ Copy constructor for [TastyState](class_tasty_state.md#class_tasty_state).
 
 **Return type**: 
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::TastyState"}]}
 
 <a id="class_tasty_state_1a0e1f6d069ab6a585b6c4925e55e7303d"></a>
 ### Function setLEDColor
@@ -641,9 +595,7 @@ Sets the LED color.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::setLEDColor"}]}
 
 <a id="class_tasty_state_1a775e3f96776ab2bbac199db75a81982e"></a>
 ### Function setLEDColor
@@ -676,9 +628,7 @@ Sets the LED color.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::setLEDColor"}]}
 
 <a id="class_tasty_state_1a85d4654a58ebaaafcdf99b2eae454c99"></a>
 ### Function setBlinkSpeed
@@ -704,9 +654,7 @@ Sets the blink speed for the LED.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::setBlinkSpeed"}]}
 
 <a id="class_tasty_state_1a04d3cf48ca33fb2067c579725be7d52c"></a>
 ### Function getTimeout
@@ -727,9 +675,7 @@ The timeout duration in milliseconds.
 
 **Return type**: int32_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::getTimeout"}]}
 
 <a id="class_tasty_state_1a5324060bec8b475d0255833118fbe4c9"></a>
 ### Function setTimeout
@@ -754,9 +700,7 @@ Sets the timeout duration for the state.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::setTimeout"}]}
 
 <a id="class_tasty_state_1a22a4b8220db87f224593b6087f8b571b"></a>
 ### Function addEvents
@@ -798,9 +742,7 @@ Adds event states for various button actions.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::addEvents"}]}
 
 <a id="class_tasty_state_1a0a0e3891989a702991591cc71910db52"></a>
 ### Function onEvent
@@ -839,9 +781,7 @@ Registers an event handler for a specific event type.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::onEvent"}]}
 
 <a id="class_tasty_state_1a47fc66f02437bca2d3e9794f0d34c0b3"></a>
 ### Function handleEvent
@@ -888,9 +828,7 @@ true if the event was handled successfully, false otherwise.
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::handleEvent"}]}
 
 <a id="class_tasty_state_1a7176abfb3d0a7c6c9191aea28d053df1"></a>
 ### Function forwardEvents
@@ -920,9 +858,7 @@ True if events were successfully forwarded, false otherwise.
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::forwardEvents"}]}
 
 <a id="class_tasty_state_1ae6561dd3755376d3b7092dba92d5848c"></a>
 ### Function print
@@ -941,9 +877,7 @@ Prints the current state information to the debug log.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyState::print"}]}
 
 **TODO**:
 

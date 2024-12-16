@@ -147,9 +147,7 @@ int8_t TastyStateManager::LED_R = NOT_A_PIN
 
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::LED_R"}]}
 
 <a id="class_tasty_state_manager_1aa8e42e3f53d8f144b2fdb58c5cc3af01"></a>
 ### Variable LED\_G
@@ -170,9 +168,7 @@ int8_t TastyStateManager::LED_G = NOT_A_PIN
 
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::LED_G"}]}
 
 <a id="class_tasty_state_manager_1a2d1e726ef1fe83e92785c73a4fecfa08"></a>
 ### Variable LED\_B
@@ -189,13 +185,9 @@ int8_t TastyStateManager::LED_B = NOT_A_PIN
 
 
 
-
-
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::LED_B"}]}
 
 <a id="class_tasty_state_manager_1aa27f53d2c1d4f72e3318aa105012f749"></a>
 ### Variable LED
@@ -216,9 +208,7 @@ int8_t TastyStateManager::LED = NOT_A_PIN
 
 **Type**: int8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::LED"}]}
 
 ## Private static attributes
 
@@ -242,9 +232,7 @@ RGBLed TastyStateManager::EMPTY_RGB_LED
 
 **Type**: [RGBLed](struct_r_g_b_led.md#struct_r_g_b_led)
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::EMPTY_RGB_LED"}]}
 
 <a id="class_tasty_state_manager_1ad3f61948d4831c97ce1f783001160399"></a>
 ### Variable timer
@@ -266,9 +254,7 @@ Timer TastyStateManager::timer = Timer<>()
 
 **Type**: Timer
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::timer"}]}
 
 <a id="class_tasty_state_manager_1a29466eb5cae521edee036e312287f8c9"></a>
 ### Variable ledTask
@@ -290,9 +276,7 @@ Timer::Task TastyStateManager::ledTask = NULL
 
 **Type**: Timer ::Task
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::ledTask"}]}
 
 <a id="class_tasty_state_manager_1a4a09dd09e9bf44516a109a5f940e024b"></a>
 ### Variable timeoutTask
@@ -314,9 +298,7 @@ Timer::Task TastyStateManager::timeoutTask = NULL
 
 **Type**: Timer ::Task
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::timeoutTask"}]}
 
 <a id="class_tasty_state_manager_1a1415973b603069daf1520f15dd2097aa"></a>
 ### Variable timeout
@@ -338,9 +320,7 @@ Timeout TastyStateManager::timeout = { nullptr, 999 }
 
 **Type**: [Timeout](struct_timeout.md#struct_timeout)
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::timeout"}]}
 
 ## Public attributes
 
@@ -363,9 +343,7 @@ The active state
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::activeState"}]}
 
 <a id="class_tasty_state_manager_1a886583ece83b83af5664175b4b69b467"></a>
 ### Variable lastState
@@ -386,9 +364,7 @@ The previous state
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::lastState"}]}
 
 <a id="class_tasty_state_manager_1af91fda0fb60771cedc6bb58b4bede2ca"></a>
 ### Variable defaultState
@@ -409,9 +385,7 @@ The default state, state manager will revert back to this after timeouts
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::defaultState"}]}
 
 <a id="class_tasty_state_manager_1a838ab01d3eb7cbd773dd149a04d03bbc"></a>
 ### Variable defaultTimeoutState
@@ -432,9 +406,7 @@ Intermediary state for making changes during timeouts
 
 **Type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::defaultTimeoutState"}]}
 
 <a id="class_tasty_state_manager_1ae1cc0a1352b4ab3879bb955b193051f7"></a>
 ### Variable ledState
@@ -455,9 +427,7 @@ State of the RGB LED
 
 **Type**: [BlinkState](struct_blink_state.md#struct_blink_state)
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::ledState"}]}
 
 ## Private functions
 
@@ -478,9 +448,7 @@ TastyStateManager::TastyStateManager()
 
 **Return type**: 
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::TastyStateManager"}]}
 
 <a id="class_tasty_state_manager_1aa107c7fa46df0436e9df4f47680cb7f0"></a>
 ### Function checkTimeout
@@ -499,9 +467,7 @@ void TastyStateManager::checkTimeout()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::checkTimeout"}]}
 
 <a id="class_tasty_state_manager_1a56f45646c8681351658f955e5e2cc9e7"></a>
 ### Function applyLed
@@ -520,9 +486,7 @@ This method controls the LED output based on the current LED state and color set
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::applyLed"}]}
 
 <a id="class_tasty_state_manager_1af968e50f2542aaf304efd7884f7cfb95"></a>
 ### Function getTimeoutState
@@ -543,9 +507,7 @@ Pointer to the timeout state.
 
 **Return type**: [TastyState](class_tasty_state.md#class_tasty_state) *
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::getTimeoutState"}]}
 
 <a id="class_tasty_state_manager_1a6809b39b434d4b8402563598d6147208"></a>
 ### Function getTimeout
@@ -566,9 +528,7 @@ The timeout duration in milliseconds, or -1 if not set.
 
 **Return type**: int32_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::getTimeout"}]}
 
 ## Private static functions
 
@@ -601,9 +561,7 @@ true if the timeout was handled successfully.
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::stateTimeoutHandler"}]}
 
 <a id="class_tasty_state_manager_1a23fd9b5ccb6b2e458db3cd9964b9bb8a"></a>
 ### Function toggleLed
@@ -634,9 +592,7 @@ true if the LED state was toggled successfully.
 
 **Return type**: bool
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::toggleLed"}]}
 
 ## Public static functions
 
@@ -670,9 +626,7 @@ This method is called when a single click is detected, and it transitions to the
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::onClick"}]}
 
 <a id="class_tasty_state_manager_1a10bb00cf849f4c209f86d1d0b1525ba0"></a>
 ### Function onDoubleClick
@@ -704,9 +658,7 @@ This method is called when a double click is detected, and it transitions to the
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::onDoubleClick"}]}
 
 <a id="class_tasty_state_manager_1a344c9fc78d8fdf2cc162f9ee67bc76eb"></a>
 ### Function onMultiClick
@@ -738,9 +690,7 @@ This method is called when a multi-click is detected, and it transitions to the 
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::onMultiClick"}]}
 
 <a id="class_tasty_state_manager_1a62880389ecaaf2e20fb54439bb13d38a"></a>
 ### Function onLongPress
@@ -766,9 +716,7 @@ This method is called when a button is pressed and held for an extended period. 
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::onLongPress"}]}
 
 <a id="class_tasty_state_manager_1ad1761066d25a60aadb77e3ceee1babd2"></a>
 ### Function onUpPress
@@ -794,9 +742,7 @@ This method is called when an upward button press is detected. It can be used to
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::onUpPress"}]}
 
 <a id="class_tasty_state_manager_1a71fc1e023367e026dc47e6fd95fd055e"></a>
 ### Function onDownPress
@@ -822,9 +768,7 @@ This method is called when a downward button press is detected. It can be used t
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::onDownPress"}]}
 
 <a id="class_tasty_state_manager_1a089466b9da75d1b1079872c1e4f56eb9"></a>
 ### Function onRightPress
@@ -850,9 +794,7 @@ This method is called when a rightward button press is detected. It can be used 
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::onRightPress"}]}
 
 <a id="class_tasty_state_manager_1ad43eeb27d0e06328de4950f9145fec20"></a>
 ### Function onLeftPress
@@ -878,9 +820,7 @@ This method is called when a leftward button press is detected. It can be used t
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::onLeftPress"}]}
 
 <a id="class_tasty_state_manager_1a3fe81c644f6597e8ee410a6d99b4e2d8"></a>
 ### Function getInstance
@@ -914,9 +854,7 @@ Reference to the singleton instance of [TastyStateManager](class_tasty_state_man
 
 **Return type**: [TastyStateManager](class_tasty_state_manager.md#class_tasty_state_manager) &
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::getInstance"}]}
 
 ## Public functions
 
@@ -951,9 +889,7 @@ Set the default state for the manager.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::setDefaultState"}]}
 
 <a id="class_tasty_state_manager_1aa6a988312c124a1a62b60be530bb1ed9"></a>
 ### Function setTimeoutState
@@ -986,9 +922,7 @@ Set the state that will be an intermediary between "active state" and "default s
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::setTimeoutState"}]}
 
 <a id="class_tasty_state_manager_1aee65ab923df273d420fe2f9f90dc0a1d"></a>
 ### Function setupLed
@@ -1021,9 +955,7 @@ Setup the LED with a single pin.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::setupLed"}]}
 
 <a id="class_tasty_state_manager_1ab0584f33048b2d3d9329a4b8aad4f740"></a>
 ### Function setupLed
@@ -1062,9 +994,7 @@ Setup the RGB LED with separate pins for red, green, and blue.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::setupLed"}]}
 
 <a id="class_tasty_state_manager_1abaf7b5b31f6e0d78848f6bc66d01be58"></a>
 ### Function setupDefaultStates
@@ -1100,9 +1030,7 @@ Setup the default states for the manager.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::setupDefaultStates"}]}
 
 <a id="class_tasty_state_manager_1a33b3abd2985f71a565e9e8473e4b0988"></a>
 ### Function begin
@@ -1141,9 +1069,7 @@ Start the library with optional parameters for default and timeout states and LE
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::begin"}]}
 
 <a id="class_tasty_state_manager_1a80b939cc05e2c0be11378e604ebad9c3"></a>
 ### Function begin
@@ -1182,9 +1108,7 @@ Start the library with RGB LED configuration.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::begin"}]}
 
 <a id="class_tasty_state_manager_1a7487c7ecb35040b534c027b1c7caafa3"></a>
 ### Function begin
@@ -1220,9 +1144,7 @@ Start the library with default states only.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::begin"}]}
 
 <a id="class_tasty_state_manager_1a30286d39586b39907c8845ed1910d59f"></a>
 ### Function tick
@@ -1247,9 +1169,7 @@ This method should be called periodically to update the state manager and apply 
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::tick"}]}
 
 <a id="class_tasty_state_manager_1a7244cd5222700b7222f7d3d95813cfd8"></a>
 ### Function setState
@@ -1282,9 +1202,7 @@ Set the next state for the state manager.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::setState"}]}
 
 <a id="class_tasty_state_manager_1ab61f008c341fbc52e53584a912e34a57"></a>
 ### Function setTimeoutTask
@@ -1309,9 +1227,7 @@ This method configures the timeout for the current active state.
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TastyStateManager::setTimeoutTask"}]}
 
 **TODO**:
 

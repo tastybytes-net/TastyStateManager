@@ -61,9 +61,7 @@ uint8_t TimeEntryState::editIndex = 1
 
 **Type**: uint8_t
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TimeEntryState::editIndex"}]}
 
 ## Public functions
 
@@ -91,9 +89,7 @@ TimeEntryState::TimeEntryState(String name, DateTimeObj data, handler_t saveFn, 
 
 **Return type**: 
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TimeEntryState::TimeEntryState"}]}
 
 <a id="class_time_entry_state_1a319d9a3e6cf14370df7864b8d20504ba"></a>
 ### Function increase
@@ -112,9 +108,7 @@ void TimeEntryState::increase()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TimeEntryState::increase"}]}
 
 <a id="class_time_entry_state_1a0c6e6e0fc8f9cdf0dd99651d33a95314"></a>
 ### Function decrease
@@ -133,9 +127,7 @@ void TimeEntryState::decrease()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TimeEntryState::decrease"}]}
 
 <a id="class_time_entry_state_1a08e46de9922ebf276fce0a8bd15034a0"></a>
 ### Function adjustIndexUp
@@ -154,9 +146,7 @@ void TimeEntryState::adjustIndexUp()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TimeEntryState::adjustIndexUp"}]}
 
 <a id="class_time_entry_state_1a19250e67381c972e8ebcf39270669513"></a>
 ### Function adjustIndexDown
@@ -175,9 +165,7 @@ void TimeEntryState::adjustIndexDown()
 
 **Return type**: void
 
-**TODO**:
 
-* qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TimeEntryState::adjustIndexDown"}]}
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
