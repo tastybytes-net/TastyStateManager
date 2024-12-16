@@ -2,14 +2,14 @@
 
 /**
  * @class TastyStateManager
- * @brief Manages the state of a system with timeout and LED control.
+ * > Manages the state of a system with timeout and LED control.
  *
  * The TastyStateManager class is responsible for handling different states of a system,
  * managing transitions between states based on events, and controlling an LED based on the current state.
  * It uses a timer to manage state timeouts and LED blinking.
  *
  * Example usage:
- * @code
+ * ```c++
  * TastyStateManager& manager = TastyStateManager::getInstance();
  * manager.begin(defaultState, timeoutState, ledPin);
  *
@@ -21,7 +21,7 @@
  *         manager.onClick();
  *     }
  * }
- * @endcode
+ * ```
  */
 
 Timer<> TastyStateManager::timer = Timer<>();
@@ -34,7 +34,7 @@ TastyStateManager::TastyStateManager() {};
 
 
 /**
- * @brief Handles state timeout events.
+ * > Handles state timeout events.
  *
  * @param unused Pointer to unused data.
  * @return true if the timeout was handled successfully.
@@ -48,7 +48,7 @@ bool TastyStateManager::stateTimeoutHandler(void*) {
 }
 
 /**
- * @brief Toggles the LED state.
+ * > Toggles the LED state.
  *
  * @param unused Pointer to unused data.
  * @return true if the LED state was toggled successfully.
@@ -59,7 +59,7 @@ bool TastyStateManager::toggleLed(void*) {
 }
 
 /**
- * @brief Gets the singleton instance of TastyStateManager.
+ * > Gets the singleton instance of TastyStateManager.
  *
  * @return Reference to the singleton instance of TastyStateManager.
  */
@@ -69,7 +69,7 @@ TastyStateManager& TastyStateManager::getInstance() {
 }
 
 /**
- * @brief Initializes the state manager with default and timeout states.
+ * > Initializes the state manager with default and timeout states.
  *
  * @param defaultS Pointer to the default state.
  * @param timeoutS Pointer to the timeout state.
@@ -86,7 +86,7 @@ void TastyStateManager::begin(TastyState* defaultS, TastyState* timeoutS, int8_t
 }
 
 /**
- * @brief Initializes the state manager with RGB LED pins.
+ * > Initializes the state manager with RGB LED pins.
  *
  * @param defaultS Pointer to the default state.
  * @param timeoutS Pointer to the timeout state.
@@ -101,7 +101,7 @@ void TastyStateManager::begin(TastyState* defaultS, TastyState* timeoutS, RGBLed
 }
 
 /**
- * @brief Initializes the state manager with default states only.
+ * > Initializes the state manager with default states only.
  *
  * @param defaultS Pointer to the default state.
  * @param timeoutS Pointer to the timeout state.
@@ -112,7 +112,7 @@ void TastyStateManager::begin(TastyState* defaultS, TastyState* timeoutS) {
 }
 
 /**
- * @brief Sets up the default states for the state manager.
+ * > Sets up the default states for the state manager.
  *
  * @param defaultS Pointer to the default state.
  * @param timeoutS Pointer to the timeout state.
@@ -134,7 +134,7 @@ void TastyStateManager::setupDefaultStates(TastyState* defaultS, TastyState* tim
 }
 
 /**
- * @brief Sets the default state for the state manager.
+ * > Sets the default state for the state manager.
  *
  * @param state Pointer to the state to be set as default.
  */
@@ -145,7 +145,7 @@ void TastyStateManager::setDefaultState(TastyState* state) {
 }
 
 /**
- * @brief Sets the timeout state for the state manager.
+ * > Sets the timeout state for the state manager.
  *
  * @param state Pointer to the state to be set as timeout.
  */
@@ -156,7 +156,7 @@ void TastyStateManager::setTimeoutState(TastyState* state) {
 }
 
 /**
- * @brief Sets up the LED with a single pin.
+ * > Sets up the LED with a single pin.
  *
  * @param ledPin The pin number for the LED.
  */
@@ -166,7 +166,7 @@ void TastyStateManager::setupLed(int8_t ledPin) {
 }
 
 /**
- * @brief Sets up the RGB LED with separate pins for R, G, and B.
+ * > Sets up the RGB LED with separate pins for R, G, and B.
  *
  * @param ledR The pin number for the red LED.
  * @param ledG The pin number for the green LED.
@@ -183,7 +183,7 @@ void TastyStateManager::setupLed(int8_t ledR, int8_t ledG, int8_t ledB) {
 }
 
 /**
- * @brief Updates the state manager and applies LED settings.
+ * > Updates the state manager and applies LED settings.
  *
  * This method should be called periodically to update the state manager and apply any LED changes.
  */
@@ -194,7 +194,7 @@ void TastyStateManager::tick() {
 }
 
 /**
- * @brief Sets the next state for the state manager.
+ * > Sets the next state for the state manager.
  *
  * @param nextState Pointer to the state to transition to.
  */
@@ -240,7 +240,7 @@ void TastyStateManager::setState(TastyState* nextState) {
 }
 
 /**
- * @brief Sets the timeout task for the current state.
+ * > Sets the timeout task for the current state.
  *
  * This method configures the timeout for the current active state.
  */
@@ -254,7 +254,7 @@ void TastyStateManager::setTimeoutTask() {
 }
 
 /**
- * @brief Applies the LED settings based on the current state.
+ * > Applies the LED settings based on the current state.
  *
  * This method controls the LED output based on the current LED state and color settings.
  */
@@ -285,7 +285,7 @@ void TastyStateManager::applyLed() {
 }
 
 /**
- * @brief Retrieves the timeout state based on the current active state.
+ * > Retrieves the timeout state based on the current active state.
  *
  * @return Pointer to the timeout state.
  */
@@ -305,7 +305,7 @@ TastyState* TastyStateManager::getTimeoutState() {
 }
 
 /**
- * @brief Retrieves the timeout duration for the current active state.
+ * > Retrieves the timeout duration for the current active state.
  *
  * @return The timeout duration in milliseconds, or -1 if not set.
  */
@@ -321,7 +321,7 @@ int32_t TastyStateManager::getTimeout() {
 }
 
 /**
- * @brief Handles a single click event.
+ * > Handles a single click event.
  *
  * This method is called when a single click is detected, and it transitions to the appropriate state.
  */
@@ -333,7 +333,7 @@ void TastyStateManager::onClick() {
 }
 
 /**
- * @brief Handles a double click event.
+ * > Handles a double click event.
  *
  * This method is called when a double click is detected, and it transitions to the appropriate state.
  */
@@ -345,7 +345,7 @@ void TastyStateManager::onDoubleClick() {
 }
 
 /**
- * @brief Handles a multi-click event.
+ * > Handles a multi-click event.
  *
  * This method is called when a multi-click is detected, and it transitions to the appropriate state.
  */
@@ -357,7 +357,7 @@ void TastyStateManager::onMultiClick() {
 }
 
 /**
- * @brief Handles a long press event.
+ * > Handles a long press event.
  *
  * This method is called when a long press is detected, and it transitions to the appropriate state.
  ```cpp
@@ -370,7 +370,7 @@ void TastyStateManager::onLongPress() {
 }
 
 /**
- * @brief Handles an up press event.
+ * > Handles an up press event.
  *
  * This method is called when an up press is detected, and it transitions to the appropriate state.
  */
@@ -382,7 +382,7 @@ void TastyStateManager::onUpPress() {
 }
 
 /**
- * @brief Handles a down press event.
+ * > Handles a down press event.
  *
  * This method is called when a down press is detected, and it transitions to the appropriate state.
  */
@@ -394,7 +394,7 @@ void TastyStateManager::onDownPress() {
 }
 
 /**
- * @brief Handles a right press event.
+ * > Handles a right press event.
  *
  * This method is called when a right press is detected, and it transitions to the appropriate state.
  */
@@ -406,7 +406,7 @@ void TastyStateManager::onRightPress() {
 }
 
 /**
- * @brief Handles a left press event.
+ * > Handles a left press event.
  *
  * This method is called when a left press is detected, and it transitions to the appropriate state.
  */

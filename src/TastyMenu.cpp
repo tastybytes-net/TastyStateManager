@@ -6,7 +6,7 @@ uint16_t TastyMenu::defaultMenuTimeout;
 TastyState* TastyMenu::defaultTimeoutState = nullptr;
 
 /**
- * @brief Constructs a TastyMenu with a specified number of states.
+ * > Constructs a TastyMenu with a specified number of states.
  *
  * This constructor initializes the menu with a given number of states
  * and links them together in a circular manner.
@@ -54,7 +54,7 @@ TastyMenu::TastyMenu(uint8_t len, ...) {
 }
 
 /**
- * @brief Initializes a state with event handlers and timeout settings.
+ * > Initializes a state with event handlers and timeout settings.
  *
  * This function sets up the event handlers for a given state and
  * assigns a timeout if it is not already set.
@@ -70,7 +70,7 @@ void TastyMenu::initializeState(TastyState* state, uint8_t index) {
 }
 
 /**
- * @brief Adds a timeout to a state if not already set.
+ * > Adds a timeout to a state if not already set.
  *
  * This function checks if the state has a timeout set; if not, it
  * assigns the default menu timeout. It also sets the default timeout
@@ -88,7 +88,7 @@ void TastyMenu::addTimeoutToState(TastyState* state) {
 }
 
 /**
- * @brief Sets the drawing function for the menu.
+ * > Sets the drawing function for the menu.
  *
  * This static function allows the user to assign a custom function
  * to display the menu.
@@ -107,7 +107,7 @@ void TastyMenu::setDrawFn(handler_t dFn) {
 }
 
 /**
- * @brief Inserts a new menu state after an existing state.
+ * > Inserts a new menu state after an existing state.
  *
  * This function links a new state to an existing state in the menu,
  * maintaining the order of states.
@@ -137,7 +137,7 @@ void TastyMenu::addNextMenuState(TastyState* existingState, TastyState* newState
 }
 
 /**
- * @brief Inserts a new menu state before an existing state.
+ * > Inserts a new menu state before an existing state.
  *
  * This function links a new state to an existing state in the menu,
  * maintaining the order of states.
@@ -165,7 +165,7 @@ void TastyMenu::addPreviousMenuState(TastyState* existingState, TastyState* newS
 }
 
 /**
- * @brief Calculates the indices of menu items for display purposes.
+ * > Calculates the indices of menu items for display purposes.
  *
  * This function traverses the menu states and assigns an index to each
  * state, which can be useful for displaying a position indicator.
@@ -186,7 +186,7 @@ void TastyMenu::calculateIndices(TastyState* curr) {
 }
 
 /**
- * @brief Attaches a submenu to a state.
+ * > Attaches a submenu to a state.
  *
  * This function links a submenu to an existing state, allowing for
  * nested menus.
@@ -216,7 +216,7 @@ void TastyMenu::addSubmenu(TastyState* existingState, TastyMenu* menu) {
     existingState->onRightClickState = menu->head;
     TastyState* s = menu->head;
     do {
-        loginfo_f( "Setting up back menu for state %s -> %s", s->name, existingState->name );
+        loginfo_f("Setting up back menu for state %s -> %s", s->name, existingState->name);
         addBackMenu(s, this);
         s->onLeftClickState = existingState;
 
@@ -224,7 +224,7 @@ void TastyMenu::addSubmenu(TastyState* existingState, TastyMenu* menu) {
 }
 
 /**
- * @brief Attaches a back menu to a state.
+ * > Attaches a back menu to a state.
  *
  * This function links a back menu to an existing state, allowing for
  * navigation back to a previous menu.
@@ -241,7 +241,7 @@ void TastyMenu::addBackMenu(TastyState* existingState, TastyMenu* menu) {
 }
 
 /**
- * @brief Activates a submenu if it exists.
+ * > Activates a submenu if it exists.
  *
  * This function checks if a state has a forward menu and activates it
  * if available.
@@ -260,7 +260,7 @@ bool TastyMenu::activateSubMenu(TastyState* state, void*) {
 }
 
 /**
- * @brief Activates a back menu if it exists.
+ * > Activates a back menu if it exists.
  *
  * This function checks if a state has a back menu and activates it
  * if available.

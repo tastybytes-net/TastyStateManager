@@ -1,7 +1,7 @@
 #include "../include/TastyState.h"
 
 /**
- * @brief An array representing an empty icon stored in program memory.
+ * > An array representing an empty icon stored in program memory.
  */
 const unsigned char icon_empty[] PROGMEM = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
@@ -9,7 +9,7 @@ const unsigned char icon_empty[] PROGMEM = {
 };
 
 /**
- * @brief Blink speed values in milliseconds.
+ * > Blink speed values in milliseconds.
  */
 int16_t blinkSpeedValues[6] = { 0, 1000, 500, 250, 50, 1 };
 
@@ -25,12 +25,12 @@ LedColor LED_PURPLE = { 255, 0, 255 };
 LedColor LED_WHITE = { 255, 255, 255 };
 
 /**
- * @brief Default timeout for the TastyState in milliseconds.
+ * > Default timeout for the TastyState in milliseconds.
  */
 int32_t TastyState::defaultTimeout = 10000;
 
 /**
- * @brief Sets the LED color.
+ * > Sets the LED color.
  *
  * @param r Red component (0-255)
  * @param g Green component (0-255)
@@ -43,7 +43,7 @@ void TastyState::setLEDColor(int8_t r, int8_t g, int8_t b) {
 }
 
 /**
- * @brief Sets the LED color.
+ * > Sets the LED color.
  *
  * @param color LedColor to set
  */
@@ -52,7 +52,7 @@ void TastyState::setLEDColor(LedColor color) {
 }
 
 /**
- * @brief Sets the blink speed for the LED.
+ * > Sets the blink speed for the LED.
  *
  * @param ledSpeed The desired blink speed.
  */
@@ -61,7 +61,7 @@ void TastyState::setBlinkSpeed(BlinkSpeed ledSpeed) {
 }
 
 /**
- * @brief Adds event states for various button actions.
+ * > Adds event states for various button actions.
  *
  * @param clickState State for single click event.
  * @param doubleClickState State for double click event.
@@ -76,7 +76,7 @@ void TastyState::addEvents(TastyState* clickState, TastyState* doubleClickState,
 }
 
 /**
- * @brief Registers an event handler for a specific event type.
+ * > Registers an event handler for a specific event type.
  *
  * @param t The type of event to handle.
  * @param fn The callback function to execute on the event.
@@ -88,7 +88,7 @@ void TastyState::onEvent(TastyEventType t, handler_t fn, void* param) {
 }
 
 /**
- * @brief Handles an event of a specific type.
+ * > Handles an event of a specific type.
  *
  * @param type The type of event to handle.
  * @return true if the event was handled successfully, false otherwise.
@@ -108,7 +108,7 @@ bool TastyState::handleEvent(TastyEventType type) {
 }
 
 /**
- * @brief Prints the current state information to the debug log.
+ * > Prints the current state information to the debug log.
  */
 void TastyState::print() {
     logdbg(F(" -- STATE -- "));
@@ -126,7 +126,7 @@ void TastyState::print() {
 }
 
 /**
- * @brief A default empty state instance of TastyState.
+ * > A default empty state instance of TastyState.
  */
 TastyState* EMPTY_STATE = new TastyState("EMPTY STATE", -1, { 0, 0, 0 }, LED_OFF);
 

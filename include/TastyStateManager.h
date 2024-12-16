@@ -22,7 +22,7 @@ struct Timeout {
 
 /**
  * @class TastyStateManager
- * @brief Manages the states of a Tasty application, including state transitions, timeouts, and LED control.
+ * > Manages the states of a Tasty application, including state transitions, timeouts, and LED control.
  *
  * The TastyStateManager is a singleton class that handles the management of different states in a Tasty application.
  * It allows for setting a default state, managing timeouts, and controlling LED indicators based on the current state.
@@ -34,7 +34,7 @@ struct Timeout {
  *
  * Example usage:
  *
- * @code
+ * ```c++
  * #include "TastyStateManager.h"
  * #include "TastyState.h"
  *
@@ -58,7 +58,7 @@ struct Timeout {
  *     // Call the tick function in the main loop
  *     TastyStateManager::getInstance().tick();
  * }
- * @endcode
+ * ```
  */
 class TastyStateManager {
 private:
@@ -188,56 +188,70 @@ public:
 	/**
 	 * Set the default state for the manager.
 	 *
-	 * @param state Pointer to the TastyState to set as the default state.
+	 * | Name   | Type        | Description                                           |
+	 * |--------|-------------|-------------------------------------------------------|
+	 * | state  | TastyState* | Pointer to the TastyState to set as the default state.|
 	 */
 	void setDefaultState(TastyState* state);
 
 	/**
 	 * Set the state that will be an intermediary between "active state" and "default state" when it times out.
 	 *
-	 * @param state Pointer to the TastyState to set as the timeout state.
+	 * | Name   | Type        | Description                                           |
+	 * |--------|-------------|-------------------------------------------------------|
+	 * | state  | TastyState* | Pointer to the TastyState to set as the timeout state.|
 	 */
 	void setTimeoutState(TastyState* state);
 
 	/**
 	 * Setup the LED with a single pin.
 	 *
-	 * @param ledPin The pin number for the LED.
+	 * | Name    | Type   | Description                          |
+	 * |---------|--------|--------------------------------------|
+	 * | ledPin  | int8_t| The pin number for the LED.         |
 	 */
 	void setupLed(int8_t ledPin);
 
 	/**
 	 * Setup the RGB LED with separate pins for red, green, and blue.
 	 *
-	 * @param ledR The pin number for the red LED.
-	 * @param ledG The pin number for the green LED.
-	 * @param ledB The pin number for the blue LED.
+	 * | Name   | Type   | Description                          |
+	 * |--------|--------|--------------------------------------|
+	 * | ledR   | int8_t| The pin number for the red LED.     |
+	 * | ledG   | int8_t| The pin number for the green LED.   |
+	 * | ledB   | int8_t| The pin number for the blue LED.    |
 	 */
 	void setupLed(int8_t ledR, int8_t ledG, int8_t ledB);
 
 	/**
 	 * Setup the default states for the manager.
 	 *
-	 * @param defaultS Pointer to the default TastyState.
-	 * @param timeoutS Pointer to the timeout TastyState.
+	 * | Name      | Type        | Description                                           |
+	 * |-----------|-------------|-------------------------------------------------------|
+	 * | defaultS  | TastyState* | Pointer to the default TastyState.                    |
+	 * | timeoutS  | TastyState* | Pointer to the timeout TastyState.                    |
 	 */
 	void setupDefaultStates(TastyState* defaultS = nullptr, TastyState* timeoutS = nullptr);
 
 	/**
 	 * Start the library with optional parameters for default and timeout states and LED configuration.
 	 *
-	 * @param defaultState Pointer to the default TastyState.
-	 * @param timeoutState Pointer to the timeout TastyState.
-	 * @param ledPin The pin number for the LED (optional).
+	 * | Name          | Type        | Description                                           |
+	 * |---------------|-------------|-------------------------------------------------------|
+	 * | defaultState  | TastyState* | Pointer to the default TastyState.                    |
+	 * | timeoutState  | TastyState* | Pointer to the timeout TastyState.                    |
+	 * | ledPin        | int8_t     | The pin number for the LED (optional).                |
 	 */
 	void begin(TastyState* defaultState = nullptr, TastyState* timeoutState = nullptr, int8_t ledPin = NOT_A_PIN);
 
 	/**
 	 * Start the library with RGB LED configuration.
 	 *
-	 * @param defaultState Pointer to the default TastyState.
-	 * @param timeoutState Pointer to the timeout TastyState.
-	 * @param ledPin RGBLed structure for LED configuration.
+	 * | Name          | Type        | Description                                           |
+	 * |---------------|-------------|-------------------------------------------------------|
+	 * | defaultState  | TastyState* | Pointer to the default TastyState.                    |
+	 * | timeoutState  | TastyState* | Pointer to the timeout TastyState.                    |
+	 * | ledPin        | RGBLed      | RGBLed structure for LED configuration.               |
 	 */
 	void begin(TastyState* defaultState = nullptr, TastyState* timeoutState = nullptr, RGBLed ledPin = TastyStateManager::EMPTY_RGB_LED);
 
@@ -257,7 +271,9 @@ public:
 	/**
 	 * Set the next state for the state manager.
 	 *
-	 * @param nextState Pointer to the TastyState to transition to. Defaults to the current timeout state.
+	 * | Name      | Type        | Description                                           |
+	 * |-----------|-------------|-------------------------------------------------------|
+	 * | nextState | TastyState* | Pointer to the TastyState to transition to. Defaults to the current timeout state. |
 	 */
 	void setState(TastyState* nextState = timeout.state);
 
